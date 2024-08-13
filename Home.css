@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+.container {
+    width: 85%;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+}
+
+.home {
+    background-image:url(IMG/photo_2023-08-16_17-31-03.jpg);
+    height: 135vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    
+}
+.home .container .texthome {
+    width: 80%;
+    color: aliceblue;
+}
+.home .texthome h1 {
+    font-size: 70px;
+    padding: 60px 0px 40px 0;
+   font-family: 'Rubik', sans-serif;
+}
+.home .texthome p {
+    font-size: 30px;
+    padding-bottom: 20px;
+    line-height: 1.8;
+    font-family: 'Rubik', sans-serif;
+}
+.home .texthome .btn {
+    font-size: 20px;
+    margin: 70px 0px;
+    padding: 25px 35px;
+    background-color: aqua;
+    border: none;
+    color: aliceblue;
+    transition: all .5s;
+    font-family: 'Rubik', sans-serif;
+}
+.home .texthome .btn:hover{
+    background-color: initial;
+    border: 1px solid white;
+}
+
+
+.donate {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+}
+.page .donate .img {
+    width: 50%;
+    margin: 60px 0 40px 0;
+}
+.page .donate .text {
+    padding: 40px;
+    
+}
+.page .donate .text .pa {
+    font-size: 22px;
+    color: rgb(7, 185, 185);
+    padding-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+.page .donate .text h2 {
+    font-size: 50px;
+    color: rgba(4, 4, 50, 0.838);
+    padding-bottom: 30px;
+    font-family: 'Rubik', sans-serif;
+}
+.page .donate .text .po {
+    font-size: 19px;
+    line-height: 1.6;
+    color:rgba(0, 0, 0, 0.481);
+    padding-bottom:40px ;
+    font-family: 'Rubik', sans-serif;
+    
+}
+.page .donate .text .btn {
+    font-size: 20px;
+    color: aliceblue;
+    background-color: rgb(255, 63, 63);
+    padding: 25px 50px;
+    border: 2PX solid rgb(255, 63, 63) ;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all .5s;
+    font-family: 'Rubik', sans-serif;
+
+}
+.page .donate .text .btn:hover{
+    background-color: initial;
+    color: rgb(255, 63, 63) ;
+}
+.page .donate .text .btn1 {
+    font-size: 20px;
+    color:rgb(255, 63, 63);
+    background-color: initial;
+    padding: 25px 45px;
+    border: 2PX solid;
+    margin-left: 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+.page .donate .text .btn1:hover {
+    border: 2px solid rgb(255, 50, 50);
+    color: aliceblue;
+}
+.donate .text .btn1::after{
+    content: " ";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    background-color:rgb(255, 63, 63);
+    z-index: -1;
+    transition: all .5s ;
+
+}
+.donate .text .btn1:hover::after{
+    border: 2px solid rgb(255, 50, 50);
+    width: 100%;    
+    color: aliceblue;
+}
+
+
+
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+.items .item {
+    width: 50%;
+    padding-bottom:60px ;
+}
+.items .item .pe {
+    font-size: 25px;
+    color: aqua;
+    padding-bottom: 30px;
+    font-family: 'Rubik', sans-serif;
+}
+.items .item h3 {
+    font-size: 50px;
+    color: rgba(2, 2, 46, 0.842);
+    padding-bottom: 60px;
+    font-family: 'Rubik', sans-serif;
+}
+.items .item .pp {
+    font-size: 22px;
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.563);
+    padding-bottom: 50px;
+    font-family: 'Rubik', sans-serif;
+}
+.items .item .btn2 {
+    padding: 30px 65px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: rgb(255, 63, 63);
+    border: none;
+    cursor: pointer;
+    transition: all .5s ;
+    font-family: 'Rubik', sans-serif;
+}
+.items .item .btn2:hover{
+    background-color: initial;
+    color: rgb(255, 63, 63);
+    border: 1px solid  rgb(255, 63, 63) ;
+
+}
+
+
+
+.volent {
+    padding: 30px 0 50px 0;
+}
+.volent .img1{
+    padding-left: 30px;
+}
+.volent .imging {
+    display: flex;
+    flex-wrap: wrap;
+}
+.volent .imgs .ee {
+    padding:70px 0 25px 0 ;
+    font-size: 20px;
+    color: rgb(8, 159, 159);
+    font-family: 'Rubik', sans-serif;
+} 
+.volent .imgs h3 {
+    padding-bottom:30px ;
+    font-size: 50px;
+    color: rgb(6, 6, 118);
+    font-family: 'Rubik', sans-serif;
+}
+.volent .imgs .ww {
+    padding-bottom: 30px;
+    font-size: 25px;
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 0.37);
+    font-family: 'Rubik', sans-serif;
+}
+.volent .imgs .btn1{
+    padding: 30px 50px;
+    font-size: 20px ;
+    background-color: initial;
+    border: 1px solid rgb(232, 27, 27);
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    font-family: 'Rubik', sans-serif;
+}
+.volent .imgs .btn1:hover a{
+    color: aliceblue;
+    font-family: 'Rubik', sans-serif;
+}
+.volent .imgs .btn1::after{
+    content: "";
+    width: 0%;
+    height: 100%;
+    background-color: rgb(251, 54, 54);
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    transition: all .5s;
+}
+.volent .imgs .btn1:hover::after{
+    width: 100%;   
+}
+
+
+
+.cards {
+    display: flex;
+    flex-wrap: flex;
+}
+.photo .cards .card {
+    background-color: rgb(240, 238, 238);
+}
+.photo .cards .cardimg {
+    padding: 0 15px;
+}
+.cards .card .img {
+    width: 33.33%;
+}
+.cards .card h2 {
+    padding: 20px 0 10px 20px;
+    color: rgb(2, 2, 60);
+    font-family: 'Rubik', sans-serif;
+}
+.cards .card p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.342);
+    padding:0 0 10px 20px;
+    font-family: 'Rubik', sans-serif;
+}
+.cards .card .cardimg .text .qq {
+    color: rgb(6, 166, 166);
+    font-size: 24px;
+    font-family: 'Rubik', sans-serif;
+}
+.cards .card .cardimg .text .rr {
+    font-size: 20px;
+    color: rgb(3, 3, 61);
+    font-family: 'Rubik', sans-serif;
+}
+.cardimg {
+    display: flex;
+    flex-wrap: flex;
+}
+.cardimg .text {
+    width: 33.33%;
+}
+.cardimg .text .btn2 {
+    padding: 18px 33px;
+    cursor: pointer;
+    background-color:rgb(255, 74, 74);
+    border: none;
+    font-size: 18px;
+    transition: all .5s;
+    font-family: 'Rubik', sans-serif;
+}
+.cardimg .text a {
+    color: aliceblue;
+    font-family: 'Rubik', sans-serif;
+}
+.cardimg .card:hover .btn2{
+    background-color: initial;
+    border: 1px solid rgb(255, 54, 54);
+}
+.cardimg .card:hover a {
+    color:rgb(255, 54, 54) ;
+}
+
+
+
+
+.color{
+    background-image: url(IMG/photo.jpg);
+}
+.color {
+    text-align: center;
+    padding-top:80px ;
+    color: aliceblue;
+}
+.color p {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.color h2 {
+    font-size: 50px;
+    padding-bottom: 70px ;
+    font-family: 'Rubik', sans-serif;
+}
+.color .file {
+    display: flex;
+    flex-wrap: wrap;
+}
+.color .file .text {
+    width: 33.33%;
+    padding-bottom: 70px;
+    font-family: 'Rubik', sans-serif;
+}
+.color .file .text img {
+    width: 40%;
+    padding-bottom: 40px;
+}
+.color .file .text a {
+    font-size:32px ;
+    color: aliceblue;
+    font-family: 'Rubik', sans-serif;
+}
+.color .file .text p{
+    font-size: 20px;
+    line-height: 1.6;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+.perant .text p {
+    font-size: 25px;
+    color: aqua;
+    padding: 0px 0px 10px 10px;
+    font-family: 'Rubik', sans-serif;
+}
+.perant .text h2 {
+    font-size: 40px;
+    color: rgb(5, 5, 86);
+    padding: 5px 0px 60px 10px ;
+    font-family: 'Rubik', sans-serif;
+}
+.perant {
+    padding: 60px 0 60px 0;
+}
+.perant .row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.perant .imgs {
+    width: 50%;
+    padding: 0 15px;
+}
+.perant .img {
+    background-color: rgba(128, 128, 128, 0.156);
+
+}
+.perant .img h3 {
+    font-size: 30px;
+    padding: 25px;
+    color: rgb(6, 6, 72);
+    font-family: 'Rubik', sans-serif;
+}
+.perant .img p {
+    font-size: 23px;
+    padding: 10px 0 20px 25px;
+    color: rgba(0, 0, 0, 0.478);
+    font-family: 'Rubik', sans-serif;
+}
+.perant .img a {
+    padding-left: 25px;
+    padding-bottom: 1px;
+    color: rgb(244, 48, 48);
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+.last {
+    background-color: rgba(4, 4, 92, 0.787);
+    padding: 70px 0 10px 0;
+}
+.lastpage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.lastpage .texts {
+    width: 33.33%;
+}
+.lastpage .texts img {
+    width: 50%;
+    padding-bottom: 20px;
+}
+.lastpage .texts .pq {
+    font-size: 15px;
+    line-height: 1.8;
+    padding-bottom: 20px;
+    color: aliceblue;
+    font-family: 'Rubik', sans-serif;
+
+}
+.lastpage .texts i {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.lastpage .texts h4 {
+    font-size: 30px;
+    color: aliceblue;
+    padding-bottom:20px ;
+    font-family: 'Rubik', sans-serif;
+
+}
+.lastpage .texts .ee{
+    font-size: 20px;
+    color: aliceblue;
+    line-height: 1.8;
+}
+.lastpage .texts h5{
+    font-size: 30px;
+    color: aliceblue;
+    padding-bottom:25px ;
+}
+.lastpage .texts .na{
+    font-size: 20px;
+    color: aliceblue;
+    line-height: 2.5;
+    font-family: 'Rubik', sans-serif;
+
+}
+.lastpage .texts .np{
+    font-size: 20px;
+    color: aliceblue;
+    font-family: 'Rubik', sans-serif;
+}
+.lastpage .texts h6{
+    font-size: 30px;
+    color: aliceblue;
+    padding-bottom: 25px;
+    font-family: 'Rubik', sans-serif;
+}
+.lastpage .texts p {
+    font-size: 25px;
+    color: aliceblue;
+    line-height: 1.4;
+    padding-bottom: 30px;
+    font-family: 'Rubik', sans-serif;
+}
+.lastpage .texts .btn3 {
+    padding: 20px 22px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: rgb(245, 71, 71);
+    border: rgb(245, 71, 71);
+    cursor: pointer;
+    transition: all .5s;
+    font-family: 'Rubik', sans-serif;
+}
+.lastpage .texts .btn3:hover{
+    background-color: initial;
+    border: 1px solid white;
+}
+.pop p {
+    color: rgba(240, 248, 255, 0.164);
+    padding-bottom: 35px;
+    font-family: 'Rubik', sans-serif;
+}
+.pop .ee {
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Rubik', sans-serif;
+}
+.pop i {
+    color: aqua;
+}
+.pop a{
+    color: aqua;
+}
